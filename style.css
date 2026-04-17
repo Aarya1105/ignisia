@@ -1,0 +1,43 @@
+body{
+margin:0;
+background:#000;
+color:white;
+font-family:sans-serif;
+overflow:hidden;
+}
+
+#main{
+overflow:hidden;
+}
+
+.title{
+text-align:center;
+font-size:50px;
+padding:100px 0;
+}
+
+.panel{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:100px 0;
+position:relative;
+}
+
+.panel img{
+width:70%;
+max-width:900px;
+border-radius:20px;
+opacity:0;
+transform:scale(0.8);
+}
+
+.panel h2{
+margin-top:20px;
+font-size:32px;
+opacity:0;
+text-align:center;
+max-width:800px;
+}
